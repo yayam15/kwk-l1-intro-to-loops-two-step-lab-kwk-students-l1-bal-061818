@@ -8,27 +8,27 @@ def first_steps
   sleep (0.5)
   puts "Stop"
   sleep (1)
-break
+ end
 end
 first_steps
-def a_few_more_steps
-  loop do
-    puts "Right foot steps right and back"
-    puts "left foot steps right and back"
-    puts "Right foot steps right and back"
-    puts "turn"
-    sleep (1)
-   end
-  end
-  a_few_more_steps
-def how_many_steps
-  steps=0
-  steps+=1
-if  steps%2
-  puts "Right"
-else puts"Left"
-  sleep(0.5)
-
+# def a_few_more_steps
+#   loop do
+#     puts "Right foot steps right and back"
+#     puts "left foot steps right and back"
+#     puts "Right foot steps right and back"
+#     puts "turn"
+#     sleep (1)
+#    end
+#   end
+#   a_few_more_steps
+# def how_many_steps
+#   steps=0
+#   steps+=1
+# if  steps%2
+#   puts "Right"
+# else puts"Left"
+#   sleep(0.5)
+# end
 
 
   end
